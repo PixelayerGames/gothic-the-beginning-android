@@ -1,0 +1,65 @@
+name: Bug report / Сообщение об ошибке
+description: Report a reproducible problem / Опишите воспроизводимую проблему
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please report one problem per issue. Issues are public. Do not attach game JARs, saves or files that contain personal information.
+
+        Опишите одну проблему. Сообщения видны всем. Не прикладывайте игровые JAR, сохранения или файлы с личными данными.
+  - type: input
+    id: apk-version
+    attributes:
+      label: APK version / Версия APK
+      placeholder: "0.1.0-beta.2"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model / Модель устройства
+      placeholder: "Retroid Pocket 5"
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version / Версия Android
+      placeholder: "Android 13"
+    validations:
+      required: true
+  - type: input
+    id: jar-version
+    attributes:
+      label: JAR version or SHA-256 / Версия JAR или SHA-256
+      description: A version, file size or checksum is enough. For English text issues, include the donor JAR details as well. / Достаточно версии, размера файла или контрольной суммы. Если ошибка касается английского текста, укажите данные второго JAR.
+      placeholder: "Russian J2ME 1.0, 395053 bytes"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Шаги воспроизведения
+      description: Mention the screen format, FPS mode and input method if relevant. / Если это важно, укажите формат экрана, режим FPS и способ управления.
+      placeholder: |
+        1.
+        2.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / Ожидаемое поведение
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / Фактическое поведение
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional) / Скриншоты (необязательно)
+      description: Attach screenshots that show the problem, without personal information. / Прикрепите скриншоты с ошибкой и без личных данных.
