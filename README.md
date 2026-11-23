@@ -6,6 +6,18 @@ An unofficial Android runtime for the mobile **Gothic 3: The Beginning**, made b
 
 [Download the Android APK](https://github.com/PixelayerGames/gothic-the-beginning-android/releases) · [Pixelayer website](https://pixelayer.com/) · [YouTube](https://www.youtube.com/@pixelayergames)
 
+## Screenshots
+
+Captured on Retroid Pocket 5.
+
+| Khorinis in Wide 16:9 | Talking to a merchant |
+| --- | --- |
+| ![The streets of Khorinis and the game HUD in Wide 16:9](screenshot-khorinis.jpg) | ![A conversation with a merchant in Khorinis](screenshot-khorinis-dialogue.jpg) |
+| **Start screen** | **Inventory** |
+| ![Start screen after the game file passed verification](screenshot-launcher.jpg) | ![Wide inventory with item categories and details](screenshot-wide-inventory.jpg) |
+| **Screen format** | **Frame-rate options** |
+| ![Screen format menu with Original 240×320 and Wide 16:9](screenshot-wide-format.jpg) | ![Motion menu with Original, Smooth 30 FPS and Smooth 60 FPS](screenshot-wide-fps.jpg) |
+
 ## Which JAR do I need?
 
 Install the signed APK from **Releases** on Android 8 (API 26) or later. Use the `.jar` from your own legitimately obtained copy of **Gothic 3: The Beginning**. The supported game file is the **Russian version 1.0 for Java phones (J2ME)**. It is **395,053 bytes** (about **386 KiB**). The filename may vary.

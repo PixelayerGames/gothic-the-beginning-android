@@ -6,6 +6,18 @@
 
 [Скачать APK для Android](https://github.com/PixelayerGames/gothic-the-beginning-android/releases) · [Сайт Pixelayer](https://pixelayer.com/) · [YouTube](https://www.youtube.com/@pixelayergames)
 
+## Скриншоты
+
+Снято на Retroid Pocket 5.
+
+| Хоринис в Wide 16:9 | Разговор с торговцем |
+| --- | --- |
+| ![Улица Хориниса и игровой интерфейс в Wide 16:9](screenshot-khorinis.jpg) | ![Диалог с жителем Хориниса](screenshot-khorinis-dialogue.jpg) |
+| **Стартовый экран** | **Инвентарь** |
+| ![Стартовый экран после проверки игрового файла](screenshot-launcher.jpg) | ![Инвентарь с категориями и сведениями о предмете](screenshot-wide-inventory.jpg) |
+| **Формат экрана** | **Частота кадров** |
+| ![Меню формата с вариантами Original 240×320 и Wide 16:9](screenshot-wide-format.jpg) | ![Меню плавности с вариантами Original, Smooth 30 FPS и Smooth 60 FPS](screenshot-wide-fps.jpg) |
+
 ## Какой JAR нужен
 
 Установите подписанный APK из **Releases** на Android 8 (API 26) или новее. Для игры используйте `.jar` из своей законно полученной копии **Gothic 3: The Beginning**. Подходит **русская версия 1.0 для кнопочных Java-телефонов (J2ME)**. Размер файла — **395 053 байта** (около **386 КиБ**). Имя файла может отличаться.
