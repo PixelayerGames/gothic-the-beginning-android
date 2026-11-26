@@ -35,13 +35,11 @@ Captured on Retroid Pocket 5.
 
 ## Which JAR do I need?
 
-> [!IMPORTANT]
-> Game launch is limited to the exact Russian J2ME 1.0 edition (B03) listed below. The optional English edition (B01) supplies text for that game.
+Look for **Gothic 3: The Beginning, J2ME v1.0, about 386 KB**. Use the JAR from your own lawfully obtained copy of the game. The exact file size is **395,053 bytes**. A catalog may show `386 KB` or `395 KB`, depending on how it displays sizes.
 
-| Edition | Exact size | Use |
-| --- | ---: | --- |
-| Russian J2ME 1.0 (B03) | 395,053 bytes | Required to play. Includes the Russian game text. |
-| English J2ME 1.0 (B01) | 326,413 bytes | Optional. Supplies English text after you import the Russian game. |
+The correct file may be labeled `English` even though it contains Russian text. In the app, tap **Choose game (Выбрать игру)** and select the JAR. If you see **Совместимость: поддерживается** (supported), tap **Play (Играть)**. The app checks the file automatically.
+
+**Want to play in English?** Import the main JAR first. Then open **Game files (Файлы игры) → Add English language (Добавить английский язык)** and select the English J2ME v1.0 JAR, exactly **326,413 bytes**. It adds English text to the game you already imported.
 
 <details>
 <summary>Exact SHA-256 checksums and file markers</summary>
@@ -53,7 +51,7 @@ Captured on Retroid Pocket 5.
 
 </details>
 
-If the app reports an unsupported JAR, check the exact size and SHA-256 of your `.jar` file. File names vary. If the file is reported as damaged, copy it again from your own original. If its SHA-256 matches and the app still rejects it, [report a bug](#report-a-bug).
+If the app rejects the file, check that you selected the `.jar` and compare its exact size in bytes. If **File details (Сведения о файле)** is available on the start screen after the check, open it to see the SHA-256 and compare it with the table above. If the file is damaged, copy it again from your original. If the checksum matches and the app still rejects it, [report a bug](#report-a-bug).
 
 ## Features
 
@@ -120,7 +118,7 @@ Save in-game, close the app and install the newer signed APK over the existing i
 <details>
 <summary>What if my JAR is unsupported?</summary>
 
-Compare the exact size and SHA-256 under [JAR compatibility](#which-jar-do-i-need). If a supported file is rejected, [report the error](#report-a-bug) and include the checksum.
+Start with the exact file size under [Which JAR do I need?](#which-jar-do-i-need). After the check, use **File details (Сведения о файле)** if it’s available. If the checksum matches and the app still rejects the file, [report the error](#report-a-bug) and include the checksum.
 
 </details>
 <details>
