@@ -4,11 +4,11 @@
 
 Play the original mobile **Gothic 3: The Beginning** on Android with widescreen, a gamepad or touch controls. You’ll need your own copy of the supported game JAR.
 
-**Unofficial project by PixelayerGames** · **Beta 0.1.0-beta.2** · **Android 8 (API 26) or later**
+**Unofficial project by PixelayerGames** · **Beta 0.1.0-beta.3** · **Android 8 (API 26) or later**
 
-## [Download APK](https://github.com/PixelayerGames/gothic-the-beginning-android/releases/download/v0.1.0-beta.2/gothic-the-beginning-android-0.1.0-beta.2.apk)
+## [Download APK](https://github.com/PixelayerGames/gothic-the-beginning-android/releases/download/v0.1.0-beta.3/gothic-the-beginning-android-0.1.0-beta.3.apk)
 
-[Release notes](https://github.com/PixelayerGames/gothic-the-beginning-android/releases/tag/v0.1.0-beta.2) · [SHA256SUMS.txt](https://github.com/PixelayerGames/gothic-the-beginning-android/releases/download/v0.1.0-beta.2/SHA256SUMS.txt)
+[Release notes](https://github.com/PixelayerGames/gothic-the-beginning-android/releases/tag/v0.1.0-beta.3) · [SHA256SUMS.txt](https://github.com/PixelayerGames/gothic-the-beginning-android/releases/download/v0.1.0-beta.3/SHA256SUMS.txt)
 
 ## Quick Start
 
@@ -16,7 +16,7 @@ Play the original mobile **Gothic 3: The Beginning** on Android with widescreen,
 2. Install the APK on your Android device.
 3. Copy the JAR from your own lawfully obtained copy of **Gothic 3: The Beginning** to your device. Check which edition you need in [JAR compatibility](#which-jar-do-i-need).
 4. Open the app, tap **Choose game (Выбрать игру)** and select the JAR.
-5. Wait for **Совместимость: поддерживается** (supported).
+5. Wait for **Игра готова к запуску** (Game is ready to launch).
 6. Tap **Play (Играть)**.
 
 The installed app processes your JAR locally. When you tap **Play**, it converts the game code into Android bytecode (DEX) and runs it on your device within the installed app.
@@ -37,7 +37,7 @@ Captured on Retroid Pocket 5.
 
 Look for **Gothic 3: The Beginning, J2ME v1.0, about 386 KB**. Use the JAR from your own lawfully obtained copy of the game. The exact file size is **395,053 bytes**. A catalog may show `386 KB` or `395 KB`, depending on how it displays sizes.
 
-The correct file may be labeled `English` even though it contains Russian text. In the app, tap **Choose game (Выбрать игру)** and select the JAR. If you see **Совместимость: поддерживается** (supported), tap **Play (Играть)**. The app checks the file automatically.
+The correct file may be labeled `English` even though it contains Russian text. In the app, tap **Choose game (Выбрать игру)** and select the JAR. If you see **Игра готова к запуску** (Game is ready to launch), tap **Play (Играть)**. The app checks the file automatically.
 
 **Want to play in English?** Import the main JAR first. Then open **Game files (Файлы игры) → Add English language (Добавить английский язык)** and select the English J2ME v1.0 JAR, exactly **326,413 bytes**. It adds English text to the game you already imported.
 
@@ -57,7 +57,8 @@ If the app rejects the file, check that you selected the `.jar` and compare its 
 
 - **Display.** Original 240×320 and Wide 16:9, with menus, dialogue and inventory laid out for widescreen.
 - **Motion.** Original, Smooth 30 FPS and Smooth 60 FPS. Smooth modes interpolate movement for smoother display while keeping the original game simulation speed.
-- **Controls.** Physical gamepad and on-screen controls. Adjust the size, opacity and layout of the on-screen buttons.
+- **Controls.** Physical gamepad and on-screen controls. Adjust the size, opacity and layout of the on-screen buttons. Configure button bindings and choose Auto, Nintendo, Xbox or DualSense button hints.
+- **Sound and vibration.** Play music and effects together. Open **Settings → Sound and vibration** for three independent levels from 1 to 10, with an Off position.
 - **Game language.** Russian with B03, plus English with the optional B01 text import.
 - **Saves.** Save and load through the in-game menu. Saves and settings are stored on the device.
 
@@ -69,7 +70,7 @@ Gamepad and touch input were tested on Retroid Pocket 5 (Android 13). On the sam
 - **Compatibility.** Game launch requires the exact Russian JAR listed above. Android 8 is the minimum requirement, and testing covers a limited set of devices and controllers. Smooth modes target the selected frame rate, and actual performance varies by device and scene.
 - **English.** English applies to in-game text after a restart. The import screen remains in Russian.
 - **Save files.** Saves are stored in this app. This beta has no save import or export feature.
-- **Audio.** In one emulator test, the main-menu music stayed silent after returning to the same menu from the background. Behavior on other devices remains unverified.
+- **Audio.** In one Beta 2 emulator test, the main-menu music stayed silent after returning to the same menu from the background. Behavior on other devices remains unverified.
 
 ## FAQ
 
